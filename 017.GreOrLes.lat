@@ -1,0 +1,9 @@
+escribir ("Ingrese un número")
+num1 = leer()
+escribir ("Ingrese otro número")
+num2 = leer()
+si num1>num2
+    escribir (nmu1.." es mayor")
+sino
+    escribir (num2.." es mayor")
+fin    

@@ -1,0 +1,6 @@
+escribir ("Ingrese el radio")
+rad = leer()
+vol = ((4/3)*3.1416)*(rad^3)
+are = 3.1416*(rad^2)
+escribir ("El volumen de la esfera es "..vol)
+escribir ("El área del circulo es:"..are)

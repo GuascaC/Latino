@@ -1,0 +1,6 @@
+escribir ("Ingrese los grados celsius")
+cel = leer()    
+far = 32 + (9*cel/5)
+kel = ((far - 32) * 5/9)+ 273.15
+escribir ("Grados Faremheit:"..far)
+escribir ("Grados Kelvin:"..kel)

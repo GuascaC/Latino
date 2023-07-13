@@ -1,0 +1,10 @@
+escribir ("Ingrese Base")
+bas = leer()
+escribir ("Ingrese Altura")
+hig = leer()
+escribir ("Ingrese Cantidad de Estibas")
+qua = leer()
+q_est = bas * hig
+tot = qua * q_est
+escribir ("Cantida por estiba:"..q_est)
+escribir ("Total:"..tot)

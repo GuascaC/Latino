@@ -1,0 +1,8 @@
+escribir ("ingrese cantidad")
+qua = leer()
+escribir ("ingrese artículo")
+art = leer()
+escribir ("ingrese iva")
+iva = leer()
+res = (art*qua)/iva
+escribir ("Resulatado:"..res)

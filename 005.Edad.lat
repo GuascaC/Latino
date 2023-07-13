@@ -1,0 +1,30 @@
+
+escribir ("el año actual es 2023?(Y/N)")
+con = leer()
+si con == "Y"
+    escribir ("ingrese año de nacimiento")
+    bor = leer()
+    age = 2023-bor
+    si age>=18
+        escribir ("Mayor de edad:"..age)  
+    sino
+        escribir ("Menor de edad:"..age)  
+    fin
+fin
+si con == "N"
+    escribir ("ingrese año actual")
+    now = leer()
+    si now>2023
+        escribir ("Error, el año no puede superar 2022")
+    sino
+        escribir ("ingrese año de nacimiento")
+        bor = leer()
+        age = now-bor
+        si age>=18
+            escribir ("Mayor de edad:"..age)  
+        sino
+            escribir ("Menor de edad:"..age)  
+        fin
+  
+fin
+fin

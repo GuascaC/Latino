@@ -1,0 +1,12 @@
+escribir ("Ingrese el primer número")
+fir = leer()
+escribir ("Ingrese el segundo número")
+sec = leer()
+add = fir+sec   
+sus = fir-sec
+mul = fir*sec
+div = fir/sec
+escribir ("Suma:"..add)
+escribir ("Resta:"..sus)
+escribir ("Muliplicación"..mul)
+escribir ("División:"..div)

@@ -1,0 +1,31 @@
+escribir ("Ingrese precio de manzanas")
+p_app = leer()
+escribir ("Ingrese cantidad de manzanas")
+q_app = leer()
+escribir ("Ingrese precio de peras")
+p_pea = leer()
+escribir ("Ingrese cantidad de peras")
+q_pea = leer()
+t_app = p_app * q_app
+t_pea = p_pea * q_pea
+tot = t_app + t_pea
+
+funcion barato(p_pea)
+    si p_pea > 800
+        escribir ("Caro")
+    sino    
+        escribir ("Barato")
+    fin
+fin
+
+    si tot < 5000
+        escribir ("Dentro de presupuesto:"..tot)
+    sino    
+        escribir ("Fuera de presupuesto:"..tot)
+    fin
+
+
+barato()
+escribir ("Total Manzanas:"..t_app)
+escribir ("Total Peras:"..t_pea)
+escribir ("Total:"..tot)

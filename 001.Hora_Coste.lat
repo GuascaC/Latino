@@ -1,0 +1,7 @@
+escribir ("Ingrese un número")
+n = leer()
+si n % 2==0
+    escribir ("El número es par")
+sino
+    escribir ("El número es impar")
+fin 

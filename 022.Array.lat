@@ -1,0 +1,12 @@
+array1 = ["uva", "pera", "manzana"]
+escribir (array1[1])
+escribir (array1[1][2])//tercer carcater segundo elemento
+escribir (array1)
+escribir ("Ingrese una fruta")
+new = leer()
+array1[3] = new
+escribir (array1)
+escribir ("Ingrese una fruta para cambiar la primera(uva)")
+new1 = leer()
+array1[0] = new1
+escribir (array1)

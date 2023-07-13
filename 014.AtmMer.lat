@@ -1,0 +1,4 @@
+escribir ("Ingrese las atmosferas")
+atm = leer()
+mer = atm*760
+escribir ("Los milimetros de mercurio son:"..mer)

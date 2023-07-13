@@ -1,0 +1,8 @@
+escribir ("ingrese la nota 1")
+not1 = leer()
+escribir ("ingrese la nota 2")
+not2 = leer()
+escribir ("ingrese la nota 3")
+not3 = leer()
+tot = (not1*0.4)+(not2*0.2)+(not3*0.4)
+escribir ("Nota final:"..tot)

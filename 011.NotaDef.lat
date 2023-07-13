@@ -1,0 +1,8 @@
+escribir ("Ingrese primera nota")
+fir = leer()
+escribir ("Ingrese segunda nota")
+sec = leer()
+escribir ("Ingrese tercera nota")
+thi = leer()
+tot = (fir+sec+thi)/3
+escribir ("Su nota final es:"..tot)

@@ -1,0 +1,16 @@
+escribir ("Ingrese preguntas correctas")
+cor = leer()
+escribir ("Ingrese total de preguntas")
+tot_que = leer()
+poi = 50/tot_que
+not = cor * poi
+escribir ("Ingrese nota actividad")
+act = leer()
+tot = (act * 30/100)+(not * 70/100)
+si tot>30
+    escribir ("Nota examen:"..not)
+    escribir ("Nota final:"..tot.." Si pasa")
+sino
+    escribir ("Nota examen:"..not)
+    escribir ("Nota final:"..tot.." No pasa")
+fin

@@ -1,0 +1,9 @@
+cou = 1
+mientras cou<=3
+    escribir ("Ingrese un número")
+    num = leer()
+    cou = cou+1
+    num1 = num
+    tot = num1+num
+fin 
+escribir ("Total:"..tot)

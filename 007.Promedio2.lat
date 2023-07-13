@@ -1,0 +1,13 @@
+escribir ("ingrese la nota 1")
+not1 = leer()
+escribir ("ingrese la nota 2")
+not2 = leer()
+escribir ("ingrese la nota 3")
+not3 = leer()
+tot = (not1*0.1)+(not2*0.6)+(not3*0.3)
+escribir ("Nota final:"..tot)
+si tot >= 30
+    escribir ("Aprobo")
+sino
+    escribir ("No Aprobo")
+fin

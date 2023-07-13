@@ -1,0 +1,6 @@
+escribir ("Digite la distancia")
+dis = leer()
+escribir ("Digite el tiempo")
+tim = leer()
+vel = dis/tim
+escribir ("La velocidad es:".. vel)

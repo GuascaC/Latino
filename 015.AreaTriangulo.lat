@@ -1,0 +1,6 @@
+escribir ("Digite la base")
+bas = leer()
+escribir ("Digite la altura")
+hig = leer()
+are = (bas*hig)/2
+escribir ("El área del triangulo es :"..are)
